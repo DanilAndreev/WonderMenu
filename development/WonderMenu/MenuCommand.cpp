@@ -11,4 +11,9 @@ namespace WMenu {
 	wstring MenuCommand::getKey() {
 		return this->key;
 	}
+
+
+	wstring MenuCommand::getDescription() {
+		return this->description;
+	}
 }

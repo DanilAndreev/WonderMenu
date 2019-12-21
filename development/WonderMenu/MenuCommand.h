@@ -15,6 +15,7 @@ namespace WMenu {
 		MenuCommand(wstring key, wstring description);
 		virtual ~MenuCommand();
 		wstring getKey();
+		wstring getDescription();
 	public:
 		virtual void handleCommnad(wstring inputData) = 0;
 	};

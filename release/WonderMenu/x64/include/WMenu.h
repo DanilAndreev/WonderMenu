@@ -2,7 +2,7 @@
 /*
 Copyright 2019 Andrieiev Danil
 WonderMenu - a console menu builder for c++ 
-version 1.0.1
+version 1.0.2
 */
 
 
