@@ -43,6 +43,7 @@ namespace WMenu {
 			}
 			try {
 				MenuCommand* item = this->find(command);
+				item->handleCommnad(buffer);
 			}
 			catch (NoObjectFoundException e) {
 				wcout << L"Error: Unknown command" << endl;
