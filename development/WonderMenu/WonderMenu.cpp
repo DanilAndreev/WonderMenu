@@ -1,7 +1,7 @@
 #include "WonderMenu.h"
 #include "MenuCommandEmpty.h"
 
-namespace WonderMenu {
+namespace WMenu {
 	WonderMenu::WonderMenu(wstring exitCommand) : MSet(&comparator), exitCommand(exitCommand) {}
 
 	WonderMenu::WonderMenu() : WonderMenu(L"exit") {}

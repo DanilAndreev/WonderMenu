@@ -1,7 +1,7 @@
 #include "MenuCommand.h"
 
 
-namespace WonderMenu {
+namespace WMenu {
 	MenuCommand::MenuCommand(wstring key, wstring description) : key(key), description(description) {}
 
 

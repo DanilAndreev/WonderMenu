@@ -4,7 +4,7 @@
 #include "WonderMenuExceptions.h"
 
 
-namespace WonderMenu {
+namespace WMenu {
 	using namespace std;
 
 	class MenuCommand {
